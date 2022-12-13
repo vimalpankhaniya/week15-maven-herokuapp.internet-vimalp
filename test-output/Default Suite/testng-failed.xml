@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="week15-maven-herokuapp.internet-vimalp(failed)">
+    <classes>
+      <class name="com.herokuapp.internet.testsuit.LoginTest">
+        <methods>
+          <include name="inIt"/>
+          <include name="UserShouldLoginSuccessfullyWithValidCredentials"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.herokuapp.internet.testsuit.LoginTest -->
+    </classes>
+  </test> <!-- week15-maven-herokuapp.internet-vimalp(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
